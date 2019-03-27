@@ -1,0 +1,54 @@
+body {
+  font-family: "Bangers", cursive;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+.header {
+  position: relative;
+  padding: 0px;
+}
+
+#header .main-nav {
+  padding: 0;
+}
+
+.main-nav h1 {
+  font-size: 6rem;
+  /* margin-right: 5rem; */
+  color: rgb(177, 176, 176);
+  padding: 0.8rem;
+}
+
+#header .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#header .rock-image {
+  opacity: 0.4;
+  text-align: center;
+  padding: 0;
+  background: url("../img/rock_logo.png");
+  background-size: cover;
+}
+
+#header .about-us {
+  text-align: right;
+}
+
+.red-highlight {
+  background: rgb(168, 19, 19);
+  padding: 5px;
+  color: white;
+}
+
+#news {
+  position: relative;
+}
