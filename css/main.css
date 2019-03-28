@@ -1,14 +1,14 @@
 body {
   font-family: "Bangers", cursive;
-  background: url("../img/background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 700px;
 }
 
 .header {
   position: relative;
-  padding: 0px;
+  background: url("../img/bcg1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+  min-height: 700px;
 }
 
 #header .main-nav {
@@ -17,24 +17,23 @@ body {
 
 .main-nav h1 {
   font-size: 6rem;
-  /* margin-right: 5rem; */
   color: rgb(177, 176, 176);
-  padding: 0.8rem;
+  padding-top: 4rem;
 }
 
-#header .dark-overlay {
+.header .dark-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 700px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
 }
 
-#header .rock-image {
-  opacity: 0.4;
-  text-align: center;
-  padding: 0;
+.header .rock-image {
+  opacity: 0.3;
+  margin-top: 4rem;
+  padding-top: 2rem;
   background: url("../img/rock_logo.png");
   background-size: cover;
 }
@@ -47,8 +46,77 @@ body {
   background: rgb(168, 19, 19);
   padding: 5px;
   color: white;
+  opacity: 0.7;
+}
+
+.black-highlight {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  color: white;
+  opacity: 0.7;
 }
 
 #news {
   position: relative;
+  height: 650px;
+  background: url("../img/drumer.jpg");
+  background-size: cover;
+  background-position: top;
+  color: white;
+  opacity: 0.9;
+}
+
+#news .news-content {
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: black;
+  opacity: 0.8;
+  font-size: 6rem;
+}
+#concerts {
+  height: 650px;
+  background: url("../img/concert.jpg");
+  background-size: cover;
+  background-position: top;
+  color: white;
+  opacity: 0.8;
+}
+
+#concerts .concerts-content {
+  padding: 2rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 650px;
+  background: rgb(168, 19, 19);
+  opacity: 0.9;
+  font-size: 6rem;
+}
+#concerts .lead {
+  font-size: 2rem;
+}
+
+#albums {
+  position: relative;
+  height: 500px;
+  background: url("../img/gramophone.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#albums .albums-content {
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 6rem;
+  text-align: center;
 }
