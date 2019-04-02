@@ -8,7 +8,7 @@ body {
 
 .header {
   position: relative;
-  background: url("../img/bcg1.jpg");
+  background: url("../img/monkees.jpg");
   background-size: cover;
   background-attachment: fixed;
 
@@ -171,19 +171,26 @@ body {
 }
 
 #photos {
-  padding: 2rem;
-  height: 700px;
-  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.9);
   color: white;
   font-size: 6rem;
 }
 
+#photos img {
+  opacity: 0.6;
+}
+
 #social {
   padding: 2rem;
-  height: 150px;
   background: rgba(0, 0, 0, 0.8);
   color: white;
   font-size: 3rem;
+}
+
+#social a {
+  text-decoration: none;
+  color: white;
 }
 
 @media only screen and (max-width: 480px) {
