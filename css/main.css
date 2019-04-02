@@ -144,7 +144,7 @@ body {
 #video {
   padding: 2rem;
   height: 700px;
-  background: lightgray;
+  background: rgba(0, 0, 0, 0.5);
   color: black;
   font-size: 6rem;
 }
@@ -163,7 +163,9 @@ body {
 #book {
   padding: 2rem;
   height: 700px;
-  background: rgba(0, 0, 0, 0.3);
+  background: url("/img/book.jpg");
+  background-size: cover;
+
   color: white;
   font-size: 6rem;
 }
@@ -171,7 +173,7 @@ body {
 #photos {
   padding: 2rem;
   height: 700px;
-  background: blue;
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   font-size: 6rem;
 }
