@@ -163,7 +163,7 @@ body {
 #book {
   padding: 2rem;
   height: 700px;
-  background: url("/img/book.jpg");
+  background: url("../img/book.jpg");
   background-size: cover;
 
   color: white;
