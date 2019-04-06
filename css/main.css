@@ -6,53 +6,32 @@ body {
   font-family: "Bangers", cursive;
 }
 
-.header {
+#header {
   position: relative;
   background: url("../img/monkees.jpg");
   background-size: cover;
   background-attachment: fixed;
-
-  min-height: 1200px;
+  min-height: 100vh;
+  color: white;
+  font-size: 5rem;
 }
 
-#header .main-nav {
-  padding: 0;
-}
-
-.main-nav h1 {
-  font-size: 6rem;
-  color: rgb(177, 176, 176);
-  padding-top: 4rem;
-}
-
-.header .dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 1200px;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.header .rock-image {
-  opacity: 0.3;
-  margin-top: 4rem;
-  padding-top: 2rem;
-  background: url("../img/rock_logo.png");
-  background-size: cover;
-}
-
-.header a {
+#header a {
   text-decoration: none;
   color: white;
 }
 
-.header a:hover {
-  text-decoration: none;
+#header .img-middle {
+  opacity: 0.3;
 }
 
-#header .about-us {
-  text-align: right;
+#header .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .red-highlight {
