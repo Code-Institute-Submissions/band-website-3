@@ -176,4 +176,8 @@ body {
   #albums p {
     font-size: 4rem;
   }
+
+  #header {
+    background-attachment: initial;
+  }
 }
